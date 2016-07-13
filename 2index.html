@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>showOut</title>
+          <style>
+           body {
+               background: rgb(168, 94, 171);
+               color: rgb(222, 53, 104);
+               padding: 10px;
+               font-family: cursive;;
+           }
+           header {
+               font-size: 2.5em;
+               font-weight: bold;
+           }
+           [id=all-contents] {
+               max-width: 800px;
+               margin: auto;
+           }
+
+           /* navigation menu */
+           nav {
+               background: rgb(230, 69, 205);
+               margin: 0 auto;
+               margin-bottom: 40px;
+               display: flex;
+               padding: 10px;
+           }
+           nav header {
+               display: flex;
+               align-items: center;
+               color: rgb(255, 255, 255);
+               flex: 1;
+           }
+           nav ul {
+               list-style-image: none;
+           }
+           nav li {
+               display: inline-block;
+               padding: 0 10px;
+           }
+           nav a {
+               text-decoration: none;
+               color: #fff;
+           }
+
+           p {
+             font-size: 2.25em;
+           }
+
+           /* main container area beneath menu */
+           main {
+               background: rgb(69, 129, 230);
+               display: flex;
+           }
+           [class=sidebar] {
+               margin-right: 25px;
+               padding: 10px;
+           }
+           [class=sidebar] img {
+               width: 200px;
+           }
+           [class=content] {
+               flex: 1;
+               padding: 15px;
+           }
+           [class=interests] header {
+               font-size: 5.25em;
+           }
+
+            ul li {
+             font-size: 2.25em;
+           }
+       </style>
+     </head>
+
+     <body>
+          <div id="all-contients">
+              <nav>
+                <header> Bree's Life Story </header>
+                <ul>
+                   <li><a href="index/html">Home</a></li>
+                   <li> <a href="portfolio.html">portfolio</a></li>
+              </nav>
+
+              <main>
+                   <div class="sidebar">
+                     <img src="https://pbs.twimg.com/media/CnQfGScUAAABn16.jpg" width="800">
+                   </div>
+
+                   <div class="content">
+                       <header>
+                         Tootie
+                       </header>
+                         <p>
+                           Student at Riverdale High School
+                         </p>
+                         <section class="interest">
+                           <header>Interests</header>
+                           <ul>
+                             <li>money</li>
+                             <li/>twitter</li>
+                             <li>food</li>
+                           </ul>
+                  </div>
+              </main>
+          </div>
+     </body>
+</html>
